@@ -141,23 +141,23 @@ const Header = styled(Box)`
   background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
   
   h1 {
-    color: #1e4d9e; 
+    color: #fff; 
     font-size: 3.5rem;
     margin-bottom: 1rem;
     text-shadow: 
-      0 0 20px rgba(255,255,255,0.9),
-      0 0 40px rgba(255,255,255,0.7),
-      0 0 60px rgba(255,255,255,0.5);
+      0 0 20px rgba(0,0,0,0.9),
+      0 0 40px rgba(0,0,0,0.5),
+      0 0 60px rgba(0,0,0,0.3);
   }
   
   h5 {
-    color: #77471d; 
+    color: #fff; 
     font-weight: 500;
     font-size: 1.8rem;
     text-shadow: 
-      0 0 35px rgba(255,255,255,1),
-      0 0 60px rgba(255,255,255,1),
-      0 0 85px rgba(255,255,255,1);
+      0 0 35px rgba(0,0,0,1),
+      0 0 60px rgba(0,0,0,1),
+      0 0 85px rgba(0,0,0,1);
   }
 `;
 
