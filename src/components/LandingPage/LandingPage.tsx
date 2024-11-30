@@ -291,6 +291,7 @@ const LandingPage: React.FC = () => {
       text: 'Rezervasyon',
       icon: <CalendarMonthIcon />,
       action: () => {
+        navigate('/bungalov/bungalov1#booking');
         const bookingElement = document.getElementById('booking-section');
         if (bookingElement) {
           bookingElement.scrollIntoView({ behavior: 'smooth' });
@@ -338,12 +339,13 @@ const LandingPage: React.FC = () => {
           <NavLink 
             onClick={(e) => {
               e.preventDefault();
+              navigate('/bungalov/bungalov1#booking');
               const bookingElement = document.getElementById('booking-section');
               if (bookingElement) {
                 bookingElement.scrollIntoView({ behavior: 'smooth' });
               }
             }} 
-            href="#booking"
+            href="/bungalov/bungalov1#booking"
           >
             <CalendarMonthIcon /> Rezervasyon
           </NavLink>

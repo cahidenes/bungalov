@@ -924,7 +924,7 @@ const BungalovDetail: React.FC = () => {
   };
 
   const generateMediaItems = (bungalovId: string) => {
-    const basePath = `/images/${bungalovId}/carousel`;
+    const basePath = `/bungalov/images/${bungalovId}/carousel`;
     const mediaItems = [];
 
     // Add images
@@ -1104,7 +1104,7 @@ const BungalovDetail: React.FC = () => {
         </Slider>
       </CarouselContainer>
 
-      <BookingSection >
+      <BookingSection  id="booking-section">
           <Box sx={{ p: 2, display: 'flex', justifyContent: 'center' }}>
             <Typography variant="h4" gutterBottom>
               Rezervasyon - 
@@ -1116,7 +1116,7 @@ const BungalovDetail: React.FC = () => {
         </Box>
 
         
-        <BookingContainer id="booking-section">
+        <BookingContainer>
           <BookingContent padding={3}>
 
             <CalendarContainer>

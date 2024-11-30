@@ -24,7 +24,7 @@ export const terms: Term[] = [
   },
   {
     id: 'terms3',
-    text: '<a href="/terms" target="_blank" rel="noopener noreferrer" style="color: #1976d2; text-decoration: underline;">Kullanım şartlarını</a> okudum ve onaylıyorum.'
+    text: '<a href="/bungalov/terms" target="_blank" rel="noopener noreferrer" style="color: #1976d2; text-decoration: underline;">Kullanım şartlarını</a> okudum ve onaylıyorum.'
   }
 ];
 

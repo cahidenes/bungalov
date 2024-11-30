@@ -35,9 +35,12 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/bungalov" element={<LandingPage />} />
           <Route path="/bungalov/:id" element={<BungalovDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/bungalov/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/bungalov/terms" element={<Terms />} />
           <Route path="/console" element={<Console />} />
           <Route path="*" element={<Navigate to={`/bungalov/${BUNGALOV_IDS.FIRST}`} replace />} />
         </Routes>

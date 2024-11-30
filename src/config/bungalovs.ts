@@ -27,8 +27,8 @@ export const BUNGALOV_NAMES = {
 } as const;
 
 export const BUNGALOV_PATHS = {
-  [BUNGALOV_1_ID]: '/images/bungalov1',
-  [BUNGALOV_2_ID]: '/images/bungalov2',
+  [BUNGALOV_1_ID]: '/bungalov/images/bungalov1',
+  [BUNGALOV_2_ID]: '/bungalov/images/bungalov2',
 } as const;
 
 export const bungalovs: Record<string, BungalovData> = {
