@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bungalov/static/css/main.699022f4.css",
-    "main.js": "/bungalov/static/js/main.a2256bf7.js",
+    "main.js": "/bungalov/static/js/main.62bdc079.js",
     "static/js/453.49c1624c.chunk.js": "/bungalov/static/js/453.49c1624c.chunk.js",
     "static/media/slick.svg": "/bungalov/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/bungalov/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/bungalov/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bungalov/index.html",
     "main.699022f4.css.map": "/bungalov/static/css/main.699022f4.css.map",
-    "main.a2256bf7.js.map": "/bungalov/static/js/main.a2256bf7.js.map",
+    "main.62bdc079.js.map": "/bungalov/static/js/main.62bdc079.js.map",
     "453.49c1624c.chunk.js.map": "/bungalov/static/js/453.49c1624c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.699022f4.css",
-    "static/js/main.a2256bf7.js"
+    "static/js/main.62bdc079.js"
   ]
 }
